@@ -5,7 +5,6 @@ function Footer() {
   return (
     <>
       <div className={styles.Footer}>
-        {/* <div style={{display:"flex",justifyContent:"space-evenly",margin:"auto"}}> */}
         <div>
           <h4>Royal Brothers</h4>
           <div className={styles.Footer__highlight}></div>

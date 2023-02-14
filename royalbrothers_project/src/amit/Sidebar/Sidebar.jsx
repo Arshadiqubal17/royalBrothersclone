@@ -13,7 +13,6 @@ import {
     Button,
   } from '@chakra-ui/react'
 
-
  export default function DrawerExample() {
     const { isOpen, onOpen, onClose } = useDisclosure()
     const btnRef = React.useRef()
