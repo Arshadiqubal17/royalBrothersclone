@@ -3,22 +3,6 @@ import { Link } from "react-router-dom";
 import "./Navbar.css"
 import DrawerExample from "../Sidebar/Sidebar";
 export default function Nav() {
-
-//   var btn = document.getElementById("disappear")
-// function divAppear() {
-//     var cll = document.getElementById("shop_hover");
-//     cll.style.display = "grid";
-//     cll.style.background = "white";
-// }
-// btn.addEventListener("mouseover", divAppear);
-
-// // work on div of shop_hover =>
-
-// var cll = document.getElementById("shop_hover");
-// function divDisappear() {
-//         cll.style.display = "none";
-// }
-// cll.addEventListener("mouseleave", divDisappear);
   return (
     <div>
       <div>
@@ -58,7 +42,6 @@ export default function Nav() {
               
               <img
                 style={{ height: "57px" }}
-                // src="https://raw.githubusercontent.com/Kamleshfw11179/royalBrothersimages/main/image%201.png"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4v-lbnpyvlbyFviW3Sb_-DFRQDZWNkpHtwA&usqp=CAU"
                 alt="logo"
               />
