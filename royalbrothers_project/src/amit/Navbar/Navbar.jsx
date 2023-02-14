@@ -69,11 +69,7 @@ export default function Nav() {
                 <Text >
                   What's New?
                 </Text>
-                {/* <div id="shop_hover">
-                <div id="first">
-                  <p><Link to="/offers">Store</Link></p>
-                </div>
-                </div> */}
+                
                 </Link>
               <img
                 style={{ height: "15px",fontWeight:"500px", marginTop: "19px", marginLeft: "10px" }}
@@ -94,12 +90,7 @@ export default function Nav() {
               <Link to="/partner with us" className="navlink">
                
                 <Text>Partner With us</Text> 
-                {/* <div id="shop_hover">
-                <div id="first">
-                    <p><Link to="/offers">Earn with us</Link></p>
-                    <p><Link to="/offers">Own a franchise</Link></p>
-                </div>
-                </div> */}
+                
               </Link>
               <img
                style={{ height: "15px",fontWeight:"500px", marginTop: "19px", marginLeft: "10px" }}
@@ -131,15 +122,12 @@ export default function Nav() {
                   // position: "absolute",
                   marginLeft: "13%",
                 }}
-                // style={{ height: "10px",fontWeight:"500px", marginTop: "19px", marginLeft: "10px" }}
                 src="https://cdn-icons-png.flaticon.com/128/318/318426.png"
                 alt="arrow"
               ></img>
             </div></Link>
           </div>
           <div id="logsign">
-            {/* {token===""? */}
-            {/* <> */}
             <Button height="35px" width="90px" backgroundColor="transparent" borderRadius="8px" >
               Login
             </Button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -153,8 +141,7 @@ export default function Nav() {
           </div>
         
         </div>
-        {/* <hr style={{height:"2px",borderWidth:"0",color:"black",backgroundColor:"gray"}}></hr> */}
-      </div>
+       </div>
       </div>
     </div>
   );
