@@ -92,7 +92,6 @@ function Footer() {
           </div>
         </div>
       </div>
-      {/* </div> */}
       <div className={styles.Footer__desc}>
         <h2>Travel Solo and Travel Safely with Bike Rentals in Agra
         <div className={styles.Footer__highlight}></div>
