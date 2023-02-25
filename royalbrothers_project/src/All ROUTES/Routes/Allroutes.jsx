@@ -9,8 +9,6 @@ function AllRoutes() {
         {/* <Route path="//" element={<Home />} /> */}
         {/* <Route path="/tarrif" element={<Tarrif/>}></Route>
         <Route path="/partner with us" element={<Partner/>}></Route> */}
-        
-        {/* <Route path="/Home/Product" element={<Product/>}></Route> */}
       </Routes>
     </div>
   );
