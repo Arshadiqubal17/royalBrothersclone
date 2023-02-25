@@ -6,7 +6,6 @@ return(
     <div>
         <Navbar />
         <div id="backimg">
-            
             <h1>Partner with India's Largest Bike <br/>Rental Company</h1>
         </div>
 
