@@ -119,7 +119,6 @@ export default function Nav() {
                 style={{
                   height: "15px",
                   marginTop: "10px",
-                  // position: "absolute",
                   marginLeft: "13%",
                 }}
                 src="https://cdn-icons-png.flaticon.com/128/318/318426.png"
