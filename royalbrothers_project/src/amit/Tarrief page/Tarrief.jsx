@@ -25,6 +25,7 @@ function Tarrif(){
                         <p>₹ 650 /day</p>
                     </div>
                 </div>
+
                 <div style={{textAlign:"left",marginTop:"-20px"}}> 
                     <h5 style={{marginLeft:"20px"}}>Fri-Sat</h5>
                     <div style={{display:"flex", gap:"130px", margin:"-30px 0 0 28px",fontSize:"11px"}}>
@@ -32,6 +33,7 @@ function Tarrif(){
                         <p>₹ 650 /day</p>
                     </div>
                 </div>
+
                 <div style={{textAlign:"left",marginTop:"-20px"}}> 
                     <h5 style={{marginLeft:"20px"}}>Excess charges</h5>
                     <div style={{display:"flex", gap:"121px", margin:"-30px 0 0 28px", marginTop:"-30px",fontSize:"11px"}}>
@@ -39,6 +41,7 @@ function Tarrif(){
                         <p>₹ 4.0/km</p>
                         
                     </div>
+                    
                     <div style={{display:"flex", gap:"130px", margin:"-20px 0 0 28px", marginTop:"-20px",fontSize:"11px"}}>
                         <p>Km Limit</p>
                         <p>₹ 120.0/day</p>
