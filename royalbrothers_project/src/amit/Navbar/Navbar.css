@@ -40,6 +40,7 @@
     font-weight:500;
     text-decoration:none; 
     color:black;
+    
 
 }
 .navlink:hover{
@@ -54,6 +55,7 @@
 }
 #whatnew:hover{
     color: #f1b826;
+    /* background-color: #f1b826; */
 }
 
 #partner{
@@ -62,7 +64,8 @@
     width: 140px;
 }
 #partner:hover{
-    color: #f1b826;
+    color:#f1b826;
+    /* background-color: #f1b826; */
 }
 #location{
         height: 40px;

@@ -7,7 +7,7 @@ function Footer() {
       <div className={styles.Footer}>
         <div>
           <h4>Royal Brothers</h4>
-          <div className={styles.Footer__highlight}></div>
+          {/* <div className={styles.Footer__highlight}></div> */}
          <a href="https://www.instagram.com/royalbrothersrentals/"><div className={styles.Footer__flex}>
             <div>
               <img
