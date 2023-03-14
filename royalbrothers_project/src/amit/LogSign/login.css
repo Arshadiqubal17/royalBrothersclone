@@ -1,0 +1,37 @@
+.container{
+  
+    margin:70px
+}
+
+
+.image-logo{
+ width: 500px;
+}
+.container p{
+    font-size: smaller;
+    color: #9c8d9c;
+}
+label{
+    font-size: smaller; 
+    color: #9c8d9c;
+}
+
+.container-2 input {
+    padding-left:15px;
+    height:35px;
+    width:350px;
+ margin:8px;
+ border:1px solid #9c8d9c
+
+ }
+
+ 
+
+
+ .container-btn{
+    width: 380px; 
+  
+    height:35px;
+    background-color: #fed250;
+    color: white;
+ }

@@ -1,8 +1,26 @@
 import { Text, Button } from "@chakra-ui/react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import React, { useState,useEffect, useContext } from "react";
+// import ctx from "../Context/ApiContext";
+import { ctx } from "../Context/ApiContext";
 import "./Navbar.css"
 import DrawerExample from "../Sidebar/Sidebar";
 export default function Nav() {
+
+    // const {access} = useContext(ctx)
+    const navigate = useNavigate()
+  // useEffect(()=>{
+  //     // const name = JSON.parse(localStorage.getItem("name"))
+  //     const token = JSON.parse(localStorage.getItem("email"))
+  // const location = JSON.parse(localStorage.getItem("name"))
+  //     setToken(token);
+  //     // setName(name);
+  //     // console.log(name)
+  // },[])
+  // const name = JSON.parse(localStorage.getItem("name"))
+  // const location = JSON.parse(localStorage.getItem("name"))
+    const [token,setToken] = useState("")
+    // const [name,setName] = useState("")
   return (
     <div>
       <div>
@@ -72,7 +90,7 @@ export default function Nav() {
                 
                 </Link>
               <img
-                style={{ height: "15px",fontWeight:"500px", marginTop: "19px", marginLeft: "10px" }}
+                style={{ height: "15px",fontWeight:"500px", marginTop: "2px", marginLeft: "10px" }}
                 src="https://cdn-icons-png.flaticon.com/128/318/318426.png"
                 alt="arrow"
               ></img>
@@ -93,15 +111,15 @@ export default function Nav() {
                 
               </Link>
               <img
-               style={{ height: "15px",fontWeight:"500px", marginTop: "19px", marginLeft: "10px" }}
+               style={{ height: "15px",fontWeight:"500px", marginTop: "2px", marginLeft: "10px" }}
                src="https://cdn-icons-png.flaticon.com/128/318/318426.png"
                alt="arrow"
               ></img>
             </div>
           </div>
           <div>
-            <Link to="/user-location" style ={{textDecoration:"none"}}>
-            <div id="location">
+            <Link to="/" style ={{textDecoration:"none"}}>
+           <div id="location">
               <img
                style={{ height: "70%",  margin:"5px 0 0 10px",backgroundColor:"#f1b826",borderRadius:"50%" }}
                 src="https://img.icons8.com/ios/1x/place-marker--v2.png"
@@ -127,16 +145,22 @@ export default function Nav() {
             </div></Link>
           </div>
           <div id="logsign">
-            <Button height="35px" width="90px" backgroundColor="transparent" borderRadius="8px" >
-              Login
-            </Button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <Button height="35px" width="90px" backgroundColor="#FDB605" borderRadius="8px">
-              {" "}
+          {/* <div style={{marginLeft:"30px", marginRight:"10px", width:"200px",display:"flex",flexDirection:"row",alignItems:"center",justifyContent:"space-between"}}>*/}
+        {/* {access ?  */}
+        {/* // <> */}
+        {/* <Button height="45px" width="180px" backgroundColor="transparent" border="1px solid #FDB065">{"hii"}</Button>
+        : */}
+            <Link to='/login'> <Button height="35px" width="90px" backgroundColor="transparent" borderRadius="8px" >
+               Login
+           </Button></Link>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <Link to='/Signup'> <Button height="35px" width="90px" backgroundColor="#FDB605" borderRadius="8px">
+    
+              
               Sign up
-            </Button>
-            {/* </>
-            :
-            <Button height="45px" width="180px" backgroundColor="transparent" border="1px solid #FDB065">{name}</Button>} */}
+            </Button></Link>
+            
+            
+            
           </div>
         
         </div>
@@ -145,3 +169,11 @@ export default function Nav() {
     </div>
   );
 }
+
+{/* <div style={{marginLeft:"30px", marginRight:"10px", width:"200px",display:"flex",flexDirection:"row",alignItems:"center",justifyContent:"space-between"}}>
+        {token===""?
+        <>
+            <Button height="50px" width="90px" backgroundColor="transparent">Login</Button>
+            <Button height="50px" width="90px" backgroundColor="#FDB605"> Sign up</Button>
+            </>
+            : */}
