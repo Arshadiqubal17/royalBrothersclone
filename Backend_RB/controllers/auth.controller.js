@@ -28,7 +28,7 @@ const register = async(req,res) =>{
         user = await User.create(req.body);
         const newToken = getToken(user)
         res.status(200).send({message:"User registered successfuly.",token:newToken})
-}
+    }
     catch(err){
         if(err){
             console.log(err);
