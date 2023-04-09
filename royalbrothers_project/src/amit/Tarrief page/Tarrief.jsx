@@ -1,10 +1,11 @@
 import "./Tarrif.css"
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
+import Navl from "../Navlog/Navl";
 function Tarrif(){
     return(
         <div>
-            <Navbar />
+            <Navl/>
             <div id ="biketext">
                 <h1>Bike rental tariffs in Agra</h1>
                 <p>*All prices are exclusive of taxes and fuel. Images used for representation purposes only, actual color may vary.</p>

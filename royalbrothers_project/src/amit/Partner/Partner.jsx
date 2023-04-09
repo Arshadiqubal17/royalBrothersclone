@@ -1,10 +1,11 @@
 import "./Partner.css";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
+import Navl from "../Navlog/Navl";
 function Partner() {
   return (
     <div>
-      <Navbar />
+      <Navl/>
       <div id="backimg">
         <h1>
           Partner with India's Largest Bike <br />

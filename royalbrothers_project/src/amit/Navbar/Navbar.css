@@ -44,7 +44,7 @@
 
 }
 .navlink:hover{
-    color: #f1b826;
+    color: white;
     /* background-color: #f1b826; */
     /* position: fixed; */
 }
@@ -53,20 +53,16 @@
     flex-direction: row; 
     width: 122px;
 }
-#whatnew:hover{
-    color: #f1b826;
-    /* background-color: #f1b826; */
-}
 
 #partner{
     display: flex; 
     flex-direction: row; 
     width: 140px;
 }
-#partner:hover{
-    color:#f1b826;
+/* #partner:hover{ */
+    /* color:#f1b826; */
     /* background-color: #f1b826; */
-}
+/* } */
 #location{
         height: 40px;
         width: 150px;
@@ -119,4 +115,25 @@ border: 0.5px solid  #f1b826;
 #shop_hover Link:hover {
     color: #12284c;
     size: 10px;
+  }
+
+  #login{
+    height:35px;
+     width:90px; 
+     background-color:#f1b826;
+      border-radius:8px;
+       /* textDecoration:'none; */
+  }
+  #login:hover{
+    background-color: transparent;
+  }
+  #sign{
+    height:35px;
+     width:90px;
+      background-color: #f1b826;
+       border-radius:8px;
+       /* padding: 10px; */
+  }
+  #sign:hover{
+    background-color: white;
   }

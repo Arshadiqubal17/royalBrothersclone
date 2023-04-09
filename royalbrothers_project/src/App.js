@@ -11,6 +11,7 @@ import Payment from './Checkout/Checkout/Payment';
 import PaymentDetails  from "./Checkout/Checkout/PaymentDetails"
 import Signup from './amit/LogSign/Signup';
 import Login from './amit/LogSign/Login';
+import Homel from './landing/Homel';
 function App() {
   return (
     <div className="App">{
@@ -24,11 +25,12 @@ function App() {
         <Route path="/Signup" element={<Signup/>} />
         <Route path="/login" element={<Login />} />
         <Route path="/Home" element={<Home />} />
+        <Route path="/bike-ride" element={<Homel/>}/>
         <Route path="/tarrif" element={<Tarrif/>}></Route>
         <Route path="/partner with us" element={<Partner/>}></Route>
-        <Route path="/Home/Product" element={<Product />}></Route>
-        <Route path="/Home/Product/PaymentDetails" element={<PaymentDetails />}></Route>
-        <Route path="/Home/Product/PaymentDetails/Payment" element={<Payment />}></Route>
+        <Route path="/bike-ride/Product" element={<Product />}></Route>
+        <Route path="/bike-ride/Product/PaymentDetails" element={<PaymentDetails />}></Route>
+        <Route path="/bike-ride/Product/PaymentDetails/Payment" element={<Payment />}></Route>
         </Routes>
       </BrowserRouter>
 }

@@ -24,7 +24,7 @@ export default function Payment() {
 
   function handlePay() {
     alert("payment successful ");
-    navigate("/Home")
+    navigate("/bike-ride")
   }
   return (
     <>
