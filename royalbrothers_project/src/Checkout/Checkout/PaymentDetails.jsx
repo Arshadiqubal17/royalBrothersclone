@@ -113,7 +113,7 @@ const navigate=useNavigate();
           width="350px"
           marginTop="40px"
           backgroundColor="#FDB605"
-          onClick={() => navigate("/Home/Product/PaymentDetails/Payment")}
+          onClick={() => navigate("/bike-ride/Product/PaymentDetails/Payment")}
         >
           Make Payment
         </Button>

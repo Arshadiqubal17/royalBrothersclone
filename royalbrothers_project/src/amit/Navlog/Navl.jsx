@@ -34,7 +34,7 @@ export default function Navl() {
             ></img></div>
             <Text margin="-1px 5px">+919368155634 / +919507524066</Text>
             <Text margin="-1px 8px">|</Text>
-            <Link to="/find-ride"> <div style={{ marginRight:"6px", textDecoration:"none",color:"black"}}>
+            <Link to="/bike-ride"> <div style={{ marginRight:"6px", textDecoration:"none",color:"black"}}>
               Chat Now
             </div></Link>
           </div>
@@ -42,7 +42,7 @@ export default function Navl() {
         <div id="nav3">
           <div id="drawlogo">
             <DrawerExample />
-            <Link to="/find-ride">
+            <Link to="/bike-ride">
               
               <img
                 style={{ height: "57px" }}
@@ -129,7 +129,7 @@ export default function Navl() {
                 alt="arrow"
               ></img>
             </div></Link>
-          </div>
+          </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <div id="logsign">
           {/* <div style={{marginLeft:"30px", marginRight:"10px", width:"200px",display:"flex",flexDirection:"row",alignItems:"center",justifyContent:"space-between"}}>*/}
         {/* {access ?  */}

@@ -25,12 +25,12 @@ function App() {
         <Route path="/Signup" element={<Signup/>} />
         <Route path="/login" element={<Login />} />
         <Route path="/Home" element={<Home />} />
-        <Route path="/find-ride" element={<Homel/>}/>
+        <Route path="/bike-ride" element={<Homel/>}/>
         <Route path="/tarrif" element={<Tarrif/>}></Route>
         <Route path="/partner with us" element={<Partner/>}></Route>
-        <Route path="/Home/Product" element={<Product />}></Route>
-        <Route path="/Home/Product/PaymentDetails" element={<PaymentDetails />}></Route>
-        <Route path="/Home/Product/PaymentDetails/Payment" element={<Payment />}></Route>
+        <Route path="/bike-ride/Product" element={<Product />}></Route>
+        <Route path="/bike-ride/Product/PaymentDetails" element={<PaymentDetails />}></Route>
+        <Route path="/bike-ride/Product/PaymentDetails/Payment" element={<Payment />}></Route>
         </Routes>
       </BrowserRouter>
 }

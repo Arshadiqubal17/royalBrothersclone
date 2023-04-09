@@ -150,14 +150,14 @@ export default function Nav() {
         {/* // <> */}
         {/* <Button height="45px" width="180px" backgroundColor="transparent" border="1px solid #FDB065">{"hii"}</Button>
         : */}
-            <Link to='/login'> <Button height="35px" width="90px" backgroundColor="transparent" borderRadius="8px" >
+            <Link to='/login'> <button id= "login"  >
                Login
-           </Button></Link>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-           <Link to='/Signup'> <Button height="35px" width="90px" backgroundColor="#FDB605" borderRadius="8px">
+           </button></Link>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <Link to='/Signup'> <button id="sign" >
     
               
               Sign up
-            </Button></Link>
+            </button></Link>
             
             
             

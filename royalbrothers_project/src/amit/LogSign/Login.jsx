@@ -73,7 +73,7 @@ function Login(props) {
         </div>
 
         <p className="container-p">
-          By logging in, you agree to Facebook's Privacy Policy and <br />
+          By logging in, you agree to rb's Privacy Policy and <br />
           Terms of Use.
         </p>
         <button className="container-btn" type="submit">

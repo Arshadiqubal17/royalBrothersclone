@@ -14,7 +14,7 @@ export default function Product(){
     const pay=useNavigate();
     const PaymentD=()=>{
     
-        pay('/Home/Product/PaymentDetails');
+        pay('/bike-ride/Product/PaymentDetails');
     }
    
     return(
@@ -23,11 +23,12 @@ export default function Product(){
         
         <div className={styles.sMain}>
             <Navl />
-        <img src="https://raw.githubusercontent.com/Kamleshfw11179/royalBrothersimages/main/Header%20of%204%20or%207%20days.png" alt="header"></img>
+        <img style={{width:'100%'}} src="https://raw.githubusercontent.com/Kamleshfw11179/royalBrothersimages/main/Header%20of%204%20or%207%20days.png" alt="header"></img>
         <div className={styles.sMain1}>
         <div className={styles.sMain11}>
         <div className={styles.sMain11d}>
-        <div className={styles.filter}>
+        <div 
+        className={styles.filter}><h4>Select filters</h4>
         {/* <p className='fill'>Filters</p> */}
        
         </div>

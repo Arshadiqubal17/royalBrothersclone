@@ -91,13 +91,13 @@ function Signup() {
         <input type="checkbox"></input>
 
         <label>
-          Sign up for emails to get updates from Facebook on
-          <br /> products, offers and your Member benefits{" "}
+          Sign up for emails to get updates from rb on
+          <br /> rides, offers and your Member benefits{" "}
         </label>
       </div>
 
       <p className="container-p">
-        By creating an account, you agree to Facebook's Privacy Policy
+        By creating an account, you agree to rb's Privacy Policy
         <br /> and Terms of Use.
       </p>
       <Link to="/login">

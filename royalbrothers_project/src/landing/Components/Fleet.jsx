@@ -8,7 +8,7 @@ export default function Fleet() {
 
 const navigateToProduct=()=>{
     
-    navigate('/Home/Product');
+    navigate('/bike-ride/Product');
 }
   return (
     <>

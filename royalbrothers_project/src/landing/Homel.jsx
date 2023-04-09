@@ -23,7 +23,7 @@ const [dropOff,setDropoff] = useState({
 const navigate=useNavigate();
 const navigateToProduct=()=>{
     
-    navigate('/Home/Product');
+    navigate('/bike-ride/Product');
 }
 
 function handlePickup(e){
