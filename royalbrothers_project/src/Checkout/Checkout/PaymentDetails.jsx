@@ -7,6 +7,7 @@ import  "./PaymentDetails.css"
 import Navbar from "../../amit/Navbar/Navbar"
 
 import Footer from "../../amit/Footer/Footer"
+import Navl from "../../amit/Navlog/Navl";
 export default function PaymentDetails() {
   
 const navigate=useNavigate();
@@ -16,7 +17,7 @@ const navigate=useNavigate();
   const [dtime, setdTime] = useState(0);
   return (
     <div>
-      <Navbar />
+      <Navl/>
     <div className="checMain">
       
       <div className="checMain1">

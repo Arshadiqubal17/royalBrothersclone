@@ -1,15 +1,16 @@
 import { useState } from "react";
-import { Link,useNavigate  } from "react-router-dom";
 // import { Navbar } from "react-bootstrap";
 import Bar from "./Components/Bar";
 import Fleet from "./Components/Fleet";
+import { useNavigate } from "react-router-dom";
 import Slider from "./Components/Slide/Slider";
 import Slider2 from "./Components/Slide/Slider2";
 import styles from "./Components/styles.module.css";
 import Navbar from "../amit/Navbar/Navbar"
 import Footer from "../amit/Footer/Footer"
+import Navl from "../amit/Navlog/Navl";
 
-export default function Home() {
+export default function Homel() {
 const [pickup, setPickup]=useState({
   start:"",
   end:""
@@ -19,6 +20,11 @@ const [dropOff,setDropoff] = useState({
   start:"",
   end:""
 })
+const navigate=useNavigate();
+const navigateToProduct=()=>{
+    
+    navigate('/Home/Product');
+}
 
 function handlePickup(e){
   const{name, value}=e.target;
@@ -27,11 +33,6 @@ function handlePickup(e){
   localStorage.setItem("pickUp", JSON.stringify(pickup));
 }
 
-const navigate=useNavigate();
-const navigateToProduct=()=>{
-    
-    navigate('/login');
-}
 function handleDrop(e){
   const {name, value}=e.target;
   setDropoff({...dropOff, [name]:value})
@@ -41,7 +42,7 @@ function handleDrop(e){
 
   return (
     <>
-    <Navbar />
+    <Navl/>
         <div className={styles.homeContainer}>
         <img
           src="https://d36g7qg6pk2cm7.cloudfront.net/assets/landing_page_web-986bff386c60dfaf5106b17c40f7c04228518a95dff9b04ccd88c81465cec0be.jpg"
@@ -61,7 +62,7 @@ function handleDrop(e){
             <input type="time" name="end" value={dropOff.end} onChange={handleDrop} className={styles.times} placeholder="Time"></input>
           </div>
           <br /><br />
-         <button onClick={()=>navigateToProduct()}>Search</button>
+          <button  onClick={()=>navigateToProduct()} >Search</button>
         </div>
       </div>
       <Bar/>

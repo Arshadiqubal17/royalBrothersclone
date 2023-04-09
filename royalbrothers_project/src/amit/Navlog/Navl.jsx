@@ -3,24 +3,10 @@ import { Link, useNavigate } from "react-router-dom";
 import React, { useState,useEffect, useContext } from "react";
 // import ctx from "../Context/ApiContext";
 import { ctx } from "../Context/ApiContext";
-import "./Navbar.css"
+import "./Navl.css"
 import DrawerExample from "../Sidebar/Sidebar";
-export default function Nav() {
+export default function Navl() {
 
-    // const {access} = useContext(ctx)
-    const navigate = useNavigate()
-  // useEffect(()=>{
-  //     // const name = JSON.parse(localStorage.getItem("name"))
-  //     const token = JSON.parse(localStorage.getItem("email"))
-  // const location = JSON.parse(localStorage.getItem("name"))
-  //     setToken(token);
-  //     // setName(name);
-  //     // console.log(name)
-  // },[])
-  // const name = JSON.parse(localStorage.getItem("name"))
-  // const location = JSON.parse(localStorage.getItem("name"))
-    const [token,setToken] = useState("")
-    // const [name,setName] = useState("")
   return (
     <div>
       <div>
@@ -48,7 +34,7 @@ export default function Nav() {
             ></img></div>
             <Text margin="-1px 5px">+919368155634 / +919507524066</Text>
             <Text margin="-1px 8px">|</Text>
-            <Link to="/Home"> <div style={{ marginRight:"6px", textDecoration:"none",color:"black"}}>
+            <Link to="/find-ride"> <div style={{ marginRight:"6px", textDecoration:"none",color:"black"}}>
               Chat Now
             </div></Link>
           </div>
@@ -56,7 +42,7 @@ export default function Nav() {
         <div id="nav3">
           <div id="drawlogo">
             <DrawerExample />
-            <Link to="/Home">
+            <Link to="/find-ride">
               
               <img
                 style={{ height: "57px" }}
@@ -67,14 +53,14 @@ export default function Nav() {
           </div>
           <div id="navpagecont">
             <div>
-              <Link to="/login" className="navlink">
+              <Link to="/tarrif" className="navlink">
                 <Text  >
                   Tariff
                 </Text>
               </Link>
             </div>
             <div>
-              <Link to="/login" className="navlink">
+              <Link to="/store" className="navlink">
                 
                 <Text   >
                   Store
@@ -82,7 +68,7 @@ export default function Nav() {
               </Link>
             </div>
             <div id="whatnew">
-              <Link to="/login" className="navlink">
+              <Link to="/what's new" className="navlink">
                 
                 <Text >
                   What's New?
@@ -96,7 +82,7 @@ export default function Nav() {
               ></img>
             </div>
             <div>
-              <Link to="/login" className="navlink">
+              <Link to="/offers" className="navlink">
                 <Text >
                   Offers
                 </Text>
@@ -105,7 +91,7 @@ export default function Nav() {
             <div id="partner"
               
             >
-              <Link to="/login" className="navlink">
+              <Link to="/partner with us" className="navlink">
                
                 <Text>Partner With us</Text> 
                 
@@ -150,13 +136,13 @@ export default function Nav() {
         {/* // <> */}
         {/* <Button height="45px" width="180px" backgroundColor="transparent" border="1px solid #FDB065">{"hii"}</Button>
         : */}
-            <Link to='/login'> <Button height="35px" width="90px" backgroundColor="transparent" borderRadius="8px" >
+            {/* <Link to='/login'> <Button height="35px" width="90px" backgroundColor="transparent" borderRadius="8px" >
                Login
-           </Button></Link>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-           <Link to='/Signup'> <Button height="35px" width="90px" backgroundColor="#FDB605" borderRadius="8px">
+           </Button></Link>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; */}
+           <Link to='/login'> <Button height="35px" width="90px" backgroundColor="#FDB605" borderRadius="8px">
     
               
-              Sign up
+              Logout
             </Button></Link>
             
             
