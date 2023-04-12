@@ -32,7 +32,7 @@ function Login(props) {
     if (loginEmail == valurEmail && loginPassword == valuePassword) {
       // navigateToHome();
       alert("Login successful!");
-      navigate("/find-ride");
+      navigate("/bike-ride");
       // setIsLoggedIn(true);
 
       // ...
