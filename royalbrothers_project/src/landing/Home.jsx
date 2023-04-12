@@ -19,7 +19,6 @@ const [dropOff,setDropoff] = useState({
   start:"",
   end:""
 })
-
 function handlePickup(e){
   const{name, value}=e.target;
   setPickup({...pickup, [name]:value})
