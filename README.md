@@ -4,4 +4,4 @@ bike rental (bikes, superbikes, scooty) platform providing rentals spanning acro
   **Deploy link**   
             https://rb-bike-riders.vercel.app/
 ---------------------------------------------------------
-you can visit and look on our wersite contributed by Arshad Iqubal, Amit Sisodiya and Rehan
+you can visit and look on our wersite contributed by Arshad Iqubal, Amit Sisodiya and Rahim Laskar
